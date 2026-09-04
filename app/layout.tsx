@@ -1,9 +1,5 @@
 import type { Metadata } from 'next';
-import { DM_Sans, Manrope } from 'next/font/google';
 import './globals.css';
-
-const body = DM_Sans({ variable: '--font-body', subsets: ['latin'] });
-const heading = Manrope({ variable: '--font-heading-custom', subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://desert-air-hvac.emerson-d-korn.chatgpt.site'),
@@ -23,6 +19,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body className={`${body.variable} ${heading.variable}`}>{children}</body></html>;
+  return <html lang="en"><body>{children}</body></html>;
 }
 
