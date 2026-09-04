@@ -90,7 +90,7 @@ export default function Home() {
           </div>
           <div className="hero-visual" aria-label="Friendly Desert Air HVAC technician">
             <div className="photo-placeholder">
-              <img src="/og.png" alt="Friendly Desert Air HVAC technician outside a local home" />
+              <img src="/hero-v2.png" alt="Friendly Desert Air HVAC technician outside a local home" />
             </div>
             <div className="service-badge"><CheckCircle2 /><span><strong>Same-day service</strong><small>When you need us most</small></span></div>
           </div>
@@ -119,7 +119,7 @@ export default function Home() {
       <section className="section story" id="about">
         <div className="shell story-grid">
           <div className="story-photo" aria-label="Desert Air family business">
-            <img src="/og.png" alt="Desert Air HVAC technician at a neighborhood home" />
+            <img src="/hero-v2.png" alt="Desert Air HVAC technician at a neighborhood home" />
             <div className="experience"><strong>25+</strong><span>years of<br />local service</span></div>
           </div>
           <div className="story-copy">
